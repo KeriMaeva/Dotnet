@@ -4,7 +4,7 @@
 String ThirdNumber(int x)
 {
     int thirdNumber = (x / 100) % 10;
-    if (thirdNumber != 0) { return thirdNumber.ToString(); }
+    if (x > 99) { return thirdNumber.ToString(); }
     else return "Третьей цифры в числе нет";
 }
 Console.WriteLine(ThirdNumber(645));
