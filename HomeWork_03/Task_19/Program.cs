@@ -8,7 +8,7 @@ int GetData(string text)
     while (!(flag && v > 9999 && v < 100000))
     {
         Console.Write(text);
-        string data = Console.ReadLine();
+        string data = Convert.ToString(Console.ReadLine());
         flag = int.TryParse(data, out v);
     }
     return v;
