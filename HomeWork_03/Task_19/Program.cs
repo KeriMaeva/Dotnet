@@ -22,6 +22,6 @@ bool Palindrome(int number)
 
 if (Palindrome(GetData("Введите пятизначное число: ")))
 {
-    System.Console.WriteLine("Число является полиндромом");
+    Console.WriteLine("Число является полиндромом");
 }
-else System.Console.WriteLine("Число не является полиндромом");
+else Console.WriteLine("Число не является полиндромом");
