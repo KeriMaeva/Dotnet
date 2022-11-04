@@ -38,5 +38,4 @@ for (int i = 0; i < array.Length; i++)
     Console.Write("{0:F0} ", array[i]);
 }
 Console.WriteLine();
-Console.Write("Разница между максимальным и минимальным элементами массива: ");
-Console.Write("{0:F0} ", dif);
+Console.WriteLine("Разница между максимальным и минимальным элементами массива: "+ "{0:F0} ", dif);
