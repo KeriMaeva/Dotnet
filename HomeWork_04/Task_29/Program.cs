@@ -7,10 +7,10 @@ void NewArray()
     int size = 8;
     int[] array = new int[8];
     Random random = new Random();
-for (int i = 0; i < array.Length; i++)
-            {
-                array[i] = random.Next(0, 20);
-                Console.Write("{0} ", array[i]);
-            }
+    for (int i = 0; i < array.Length; i++)
+    {
+        array[i] = random.Next(0, 20);
+        Console.Write("{0} ", array[i]);
+    }
 }
 NewArray();
